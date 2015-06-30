@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Archer Imagine'
 SITENAME = u'My Pelican Site'
-SITEURL = ''
+SITEURL = 'http://localhost/myGithubCode/myBlogDevelopment/mySite/output'
 
 PATH = 'content'
 
@@ -26,8 +26,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/archerImagine'),
+          ('twitter', 'https://twitter.com/archerImagine'),
+          ('stackoverflow','http://stackoverflow.com/users/4900983/archerimagine'),)
 
 DEFAULT_PAGINATION = 10
 

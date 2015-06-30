@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://localhost/myGithubCode/myBlogDevelopment/mySite'
+SITEURL = 'http://archerimagine.github.io/myBlogDevelopment/mySite'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
